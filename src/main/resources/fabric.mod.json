@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "whyamionfire",
-  "version": "1.2.0",
+  "version": "1.2.1",
 
   "name": "Why Am I on Fire?",
   "description": "Hides the obstructive fire overlay when it's not needed.",

@@ -321,7 +321,7 @@ public abstract class MidnightConfig {
                         info.index = 0;
                         list.clear();
                         fillList();
-                    }), true).texture(new Identifier("midnightlib","icon/reset"), 12, 12).dimension(40, 20).build();
+                    }), true).texture(Identifier.of("midnightlib","icon/reset"), 12, 12).dimension(40, 20).build();
                     resetButton.setPosition(width - 205, 0);
 
                     if (info.widget instanceof Map.Entry) {

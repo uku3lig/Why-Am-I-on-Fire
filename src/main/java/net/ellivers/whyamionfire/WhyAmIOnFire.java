@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class WhyAmIOnFire implements ModInitializer {
     public static final String MOD_ID = "whyamionfire";
-    public static TagKey<Item> CLEARS_EFFECTS = TagKey.of(RegistryKeys.ITEM, new Identifier("whyamionfire","clears_effects"));
+    public static final TagKey<Item> CLEARS_EFFECTS = TagKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID,"clears_effects"));
 
     @Override
     public void onInitialize() {
